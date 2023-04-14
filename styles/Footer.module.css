@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+.Foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2.5rem 0;
+    gap: 4rem;
+    background-color: #F8F8F8;
+}
+.images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.Foot h2{
+    color: #0E2368;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.More{
+  
+    color: #646874;
+    line-height: 0.8rem;
+
+}
+.contact p{
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    color: #646874;
+    font-size: 0.7rem;
+    
+}
+.symbol{
+    padding-bottom: 2rem;
+}
+.socail  a{
+    font-size: 1.3rem;
+    color: #0E2368;
+    padding: 0 2rem;
+
+}
+.socail div{
+    font-family: 'Roboto', sans-serif;
+    color: #828B9C;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .Foot{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 2.5rem 0;
+    }
+    .More{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    color: #646874;
+    line-height: 0.4rem;
+    padding-left: 2.7rem;
+
+    }
+    .contact{
+        padding-left: 2.7rem;
+    }
+    .socail{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 2.3rem;
+    }
+    .socail h2{
+        display: none;
+    }
+    .symbol a{
+        padding: 0 1.5rem;
+    }
+ .symbol {
+    order: 2;
+    }
+ .copy{
+        order: 1;
+    }
+}
